@@ -45,10 +45,8 @@ Heavy libraries (`numpy`, `librosa`, `matplotlib`) are **lazy-loaded** only when
 
 Grab the latest release from **GitHub Releases**:
 
-- **Windows (x64)** — Portable `.exe`
-- **macOS (ARM64 only)** — `.app` inside `.dmg`
-- **Linux (x86_64)** — AppImage (or tarball)
-
+- **Windows (x64)** - Portable `.exe`
+- **macOS (ARM64 only)** - `.app` inside `.dmg`
 
 ---
 
