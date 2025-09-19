@@ -28,13 +28,11 @@ Heavy libraries (`numpy`, `librosa`, `matplotlib`) are **lazy-loaded** only when
 
 ## Features
 
-- 🖱️ **Drag & drop** an audio file onto the app to prefill the path
-- 🗂️ **Browse…** picker + **Open Folder** shortcut
-- 💤 **Lazy imports** for snappy launch
-- 📈 **Animated progress bar** (no terminal window)
-- 🔗 **Clickable logo** (main + About) → <https://unboundplanet.com/>
-- 🖼️ **300 DPI** PNG outputs, saved **next to your source** (existing files auto-overwrite)
-- 🧠 Sensible defaults; no configuration required
+- **Browse…** picker + **Open Folder** shortcut
+- **Lazy imports** for snappy launch
+- **Animated progress bar** (no terminal window)
+- **300 DPI** PNG outputs, saved **next to your source** (existing files auto-overwrite)
+- Sensible defaults; no configuration required
 
 **Supported formats:** `wav, flac, mp3, ogg, m4a/aac, aiff/aif/aifc`  
 (Compressed formats rely on **FFmpeg**.)
