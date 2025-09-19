@@ -91,7 +91,7 @@ This app needs **FFmpeg** (`ffmpeg` and `ffprobe`) to decode/inspect compressed 
 
 ## System requirements
 
-- **OS:** Windows 10/11, macOS 12+ (Apple Silicon & Intel), recent Linux (x86_64)
+- **OS:** Windows 10/11, macOS 12+ (Apple Silicon)
 - **CPU/RAM:** Any modern CPU; ≥ 2 GB RAM recommended for large files/spectrograms
 - **Storage:** PNGs at 300 DPI can be large; ensure free disk space
 
@@ -114,6 +114,3 @@ This app needs **FFmpeg** (`ffmpeg` and `ffprobe`) to decode/inspect compressed 
 
 - **macOS blocked app**  
   Right-click → **Open** to run once. Alternatively, adjust System Settings → Privacy & Security.
-
-- **Linux themes / Wayland quirks**  
-  Tkinter uses available themes; appearance may vary across distros.
