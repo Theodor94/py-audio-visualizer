@@ -6,7 +6,7 @@ Built for creators who want fast, offline analysis with a minimal, no-console UI
 [![Platform](https://img.shields.io/badge/platform-win%20|%20mac)](#downloads)
 [![GUI](https://img.shields.io/badge/UI-Tkinter-blue)](#features)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blueviolet)](#build-from-source)
-[![FFmpeg](https://img.shields.io/badge/FFmpeg-required-success)](#ffmpeg--codecs)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-bundled-success)](#ffmpeg--codecs)
 [![Nova · Unbound Planet](https://img.shields.io/badge/Nova-Unbound%20Planet-0f6)](https://unboundplanet.com/nova)
 
 ---
