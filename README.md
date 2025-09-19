@@ -1,4 +1,4 @@
-# Unbound Planet Audio Visualizer - Cross-platform GUI (Windows / macOS / Linux)
+# Unbound Planet Audio Visualizer - Cross-platform GUI (Windows / macOS)
 
 Turn any audio file into clean, high-resolution **visuals** + a **detailed TXT report** in one click.  
 Built for creators who want fast, offline analysis with a minimal, no-console UI.
