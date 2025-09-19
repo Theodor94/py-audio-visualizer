@@ -46,17 +46,19 @@ Heavy libraries (`numpy`, `librosa`, `matplotlib`) are **lazy-loaded** only when
 Grab the latest release from **GitHub Releases**:
 
 - **Windows (x64)** — Portable `.exe`
-- **macOS (universal2)** — `.app` inside `.dmg`
+- **macOS (ARM64 only)** — `.app` inside `.dmg`
 - **Linux (x86_64)** — AppImage (or tarball)
 
-> 👉 If a platform asset is missing, it will be added in a subsequent release.
 
 ---
 
 ## Quick start
 
 1. **Download** your platform build and launch the app.  
-2. **Drag & drop** an audio file into the window (or click **Browse…**).  
+2. Click **Browse…** and choose an audio file.
+   **Supported formats:** WAV, FLAC, MP3, OGG, M4A, AAC, AIFF (AIF/AIFC)  
+   **Not supported formats:** DRM-protected files (e.g. M4P, Audible AA/AAX), streaming containers, proprietary codecs
+
 3. Click **Create**.  
 4. Find the generated **PNGs** and **TXT** next to your source file.
 
@@ -82,8 +84,8 @@ The **TXT** summarizes container/codec metadata (via `ffprobe`) and analysis met
 
 This app needs **FFmpeg** (`ffmpeg` and `ffprobe`) to decode/inspect compressed formats.
 
-- **Bundled**: If the binaries are shipped next to the executable (Windows) or inside the app bundle `…/Contents/Resources` (macOS), the app **adds them to PATH automatically**.  
-- **System install**: If not bundled, ensure `ffmpeg` and `ffprobe` resolve on your system `PATH`.
+- **Bundled** or  
+- **System install**: If you lose or delete the bundled execs, ensure `ffmpeg` and `ffprobe` resolve on your system `PATH`.
 
 **Get FFmpeg:** <https://ffmpeg.org/> (LGPL v2.1). See **Licenses** below.
 
