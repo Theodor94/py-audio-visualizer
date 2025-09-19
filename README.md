@@ -18,8 +18,7 @@ Built for creators who want fast, offline analysis with a minimal, no-console UI
 - **Spectrogram (Linear Hz)** (PNG)
 - **Spectrogram (Log scale)** (PNG)
 - **Dynamics over time (RMS)** (PNG)
-- **TXT report** with: tempo (≈ BPM), key *(approx.)*, average RMS (dB), spectral centroid, rolloff (85%), zero-crossing rate, crest factor, peak amplitude, plus container/codec metadata (codec, bitrate, channels, sample rate, duration, tags, size) and **lyrics** if embedded.  
-  *(Optional)* integrated loudness (LUFS) via `ebur128`.
+- **TXT report** with: tempo (≈ BPM), key *(approx.)*, average RMS (dB), spectral centroid, rolloff (85%), zero-crossing rate, crest factor, peak amplitude, plus container/codec metadata (codec, bitrate, channels, sample rate, duration, tags, size)m **lyrics** if embedded and integrated loudness (LUFS) via `ebur128`.
 
 All processing runs **locally**. No internet needed.  
 Heavy libraries (`numpy`, `librosa`, `matplotlib`) are **lazy-loaded** only when you click **Create** for fast app startup.
