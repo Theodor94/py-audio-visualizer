@@ -31,7 +31,7 @@ Heavy libraries (`numpy`, `librosa`, `matplotlib`) are **lazy-loaded** only when
 - **Lazy imports** for snappy launch
 - **Animated progress bar** (no terminal window)
 - **300 DPI** PNG outputs, saved **next to your source** (existing files auto-overwrite)
-- Sensible defaults; no configuration required
+- Sensible defaults; no configuration required.
 
 **Supported formats:** `wav, flac, mp3, ogg, m4a/aac, aiff/aif/aifc`  
 (Compressed formats rely on **FFmpeg**.)
